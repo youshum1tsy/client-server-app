@@ -1,0 +1,51 @@
+# === Временные папки сред разработки (IDE) ===
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Файлы сборки и компиляции Visual Studio (MSVC) ===
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+[Dd]ebug/
+[Rr]elease/
+
+# === Файлы сборки систем CMake / Make (если будете использовать) ===
+CMakeFiles/
+CMakeSettings.json
+CMakeUserPresets.json
+CMakeCache.txt
+Makefile
+cmake-build-debug/
+cmake-build-release/
+
+# === Промежуточные файлы компиляции (артефакты) ===
+*.obj
+*.o
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.gch
+*.d
+
+# === Конечные исполняемые файлы и библиотеки ===
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# === Файлы логов и кэша ===
+*.log
+*.tlog
+*.lastbuildstate
